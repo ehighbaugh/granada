@@ -15,8 +15,8 @@ namespace GranadaU.Models
         [StringLength(50, ErrorMessage = "First name cannot be longer than 50 characters")]
         [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
         public string FirstMidName { get; set; }
-        [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString ="{0:yyyy-MM-dd", ApplyFormatInEditMode =true)]
+        //[DataType(DataType.Date)]
+        //[DisplayFormat(DataFormatString ="{0:yyyy-MM-dd", ApplyFormatInEditMode =true)]
         public DateTime EnrollmentDate { get; set; }
 
         public virtual ICollection<Enrollment> Enrollments { get; set; }
