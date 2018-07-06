@@ -136,7 +136,7 @@ namespace GranadaU.Controllers
             try
             {
                 Student studentToDelete = new Student() { ID = id };
-db.Entry(studentToDelete).State = EntityState.Deleted;
+                db.Entry(studentToDelete).State = EntityState.Deleted;
                 db.SaveChanges();
             }
             catch (DataException/* dex */)
