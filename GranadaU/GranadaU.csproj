@@ -169,8 +169,35 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807062111282_InitialCreate.cs" />
+    <Compile Include="Migrations\201807062111282_InitialCreate.Designer.cs">
+      <DependentUpon>201807062111282_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807062118042_InitialMigration.cs" />
+    <Compile Include="Migrations\201807062118042_InitialMigration.Designer.cs">
+      <DependentUpon>201807062118042_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807062130213_MaxLengthOfNames.cs" />
+    <Compile Include="Migrations\201807062130213_MaxLengthOfNames.Designer.cs">
+      <DependentUpon>201807062130213_MaxLengthOfNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807062133307_ColumnFirstName.cs" />
+    <Compile Include="Migrations\201807062133307_ColumnFirstName.Designer.cs">
+      <DependentUpon>201807062133307_ColumnFirstName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807062138570_FinishedStudentAttrs.cs" />
+    <Compile Include="Migrations\201807062138570_FinishedStudentAttrs.Designer.cs">
+      <DependentUpon>201807062138570_FinishedStudentAttrs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807062152395_AddInstructorOfficeAssignment.cs" />
+    <Compile Include="Migrations\201807062152395_AddInstructorOfficeAssignment.Designer.cs">
+      <DependentUpon>201807062152395_AddInstructorOfficeAssignment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Enrollment.cs" />
+    <Compile Include="Models\Instructor.cs" />
+    <Compile Include="Models\OfficeAssignment.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\EnrollmentDateGroup.cs" />
@@ -246,6 +273,26 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201807062111282_InitialCreate.resx">
+      <DependentUpon>201807062111282_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807062118042_InitialMigration.resx">
+      <DependentUpon>201807062118042_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807062130213_MaxLengthOfNames.resx">
+      <DependentUpon>201807062130213_MaxLengthOfNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807062133307_ColumnFirstName.resx">
+      <DependentUpon>201807062133307_ColumnFirstName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807062138570_FinishedStudentAttrs.resx">
+      <DependentUpon>201807062138570_FinishedStudentAttrs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807062152395_AddInstructorOfficeAssignment.resx">
+      <DependentUpon>201807062152395_AddInstructorOfficeAssignment.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
