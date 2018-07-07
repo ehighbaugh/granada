@@ -12,7 +12,6 @@ namespace GranadaU.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "GranadaU.Data.SchoolContext";
         }
 
         protected override void Seed(GranadaU.Data.SchoolContext context)

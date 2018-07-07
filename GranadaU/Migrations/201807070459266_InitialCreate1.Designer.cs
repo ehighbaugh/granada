@@ -7,13 +7,13 @@ namespace GranadaU.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class MaxLengthOfNames : IMigrationMetadata
+    public sealed partial class InitialCreate1 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(MaxLengthOfNames));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialCreate1));
         
         string IMigrationMetadata.Id
         {
-            get { return "201807062130213_MaxLengthOfNames"; }
+            get { return "201807070459266_InitialCreate1"; }
         }
         
         string IMigrationMetadata.Source
