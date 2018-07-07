@@ -193,6 +193,10 @@
     <Compile Include="Migrations\201807062152395_AddInstructorOfficeAssignment.Designer.cs">
       <DependentUpon>201807062152395_AddInstructorOfficeAssignment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807070012145_CourseDepartmentModelsCreated.cs" />
+    <Compile Include="Migrations\201807070012145_CourseDepartmentModelsCreated.Designer.cs">
+      <DependentUpon>201807070012145_CourseDepartmentModelsCreated.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Department.cs" />
@@ -293,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807062152395_AddInstructorOfficeAssignment.resx">
       <DependentUpon>201807062152395_AddInstructorOfficeAssignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807070012145_CourseDepartmentModelsCreated.resx">
+      <DependentUpon>201807070012145_CourseDepartmentModelsCreated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
