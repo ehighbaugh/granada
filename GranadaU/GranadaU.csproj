@@ -187,6 +187,10 @@
     <Compile Include="Migrations\201807080103339_InstructorViewsAdded.Designer.cs">
       <DependentUpon>201807080103339_InstructorViewsAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807081330168_DepartmentSP.cs" />
+    <Compile Include="Migrations\201807081330168_DepartmentSP.Designer.cs">
+      <DependentUpon>201807081330168_DepartmentSP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Department.cs" />
@@ -293,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807080103339_InstructorViewsAdded.resx">
       <DependentUpon>201807080103339_InstructorViewsAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807081330168_DepartmentSP.resx">
+      <DependentUpon>201807081330168_DepartmentSP.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
